@@ -27,3 +27,9 @@ img {
 .text_area {
 	flex: 1;
 }
+
+@media screen and (max-width: 600px) {
+    .row1 {
+        flex-direction: column;
+    }
+}
