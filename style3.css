@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	background-color: black;
+	color: orange;
+}
+
+img {
+	max-width: 80%; /* I think this controls the width for the .page container in this case */
+	height: auto; /* According to chatGPT, it maintains the aspect ratio */
+}
+
+.row1 {
+	display: flex;
+}
+
+.player_container {
+	display: flex;
+}
+
+.image_area {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text_area {
+	flex: 1;
+}
