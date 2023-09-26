@@ -4,6 +4,23 @@ body {
     color: orange;
 }
 
+nav {
+	display: flex;
+	justify-content: end;
+}
+
+a {
+	margin-left: 0.15%;
+	margin-right: 0.15%;
+	padding-left: 0.15%;
+	padding-right: 0.15%;
+	text-decoration: none;
+	color: orange;
+	border: 2px solid orange;
+	font-size: 120%;
+	font-family: fantasy;
+}
+
 img {
     max-width: 80%; /* I think this controls the width for the .page container in this case */
     height: auto; /* According to chatGPT, it maintains the aspect ratio */
