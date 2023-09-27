@@ -40,8 +40,10 @@ li {
 }
 
 .player_container {
+	margin: 0.35%;
     display: flex;
     flex: 1;
+    overflow: hidden;
 }
 
 .image_area {
@@ -54,10 +56,38 @@ li {
 .text_area {
     flex: 1;
     display: grid;
+    align-items: center;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-radius: 20px;
+    position: relative; /* For bringing pumpkin */
+    overflow: hidden;
+}
+
+.pumpkin {
+	position: absolute;
+	z-index: -1;
+	max-width: 60%; /* I think this controls the width for the .page container in this case */
+    height: auto; /* According to chatGPT, it maintains the aspect ratio */
+    right: -20%;
+    bottom: -10%;
+}
+
+.skull {
+	position: absolute;
+	z-index: -1;
+	max-width: 80%; /* I think this controls the width for the .page container in this case */
+    height: auto; /* According to chatGPT, it maintains the aspect ratio */
+    right: -18%;
+    bottom: -9%;
+    transform: scaleX(-1); /* Flip Image */
 }
 
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
+    }
+    .player_container {
+    	margin: 1.50%;
     }
 }
