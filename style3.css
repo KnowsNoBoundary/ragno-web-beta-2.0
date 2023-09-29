@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: #2B2000;
     color: orange;
 }
 
@@ -35,6 +35,15 @@ li {
     padding: 0;
 }
 
+.title_specification {
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 6vw;
+	font-family: cursive;
+}
+
 .row {
     display: flex;
 }
@@ -64,6 +73,30 @@ li {
     overflow: hidden;
 }
 
+.name_area {
+	color: #ffc971;
+}
+
+.friend_code_area {
+	color: #ffb627;
+}
+
+.fav_text_area {
+	color: #ff9505;
+}
+
+.name_area2 {
+	color: #ff9505;
+}
+
+.friend_code_area2 {
+	color: #e2711d;
+}
+
+.fav_text_area2 {
+	color: #cc5803;
+}
+
 .pumpkin {
 	position: absolute;
 	z-index: -1;
@@ -71,6 +104,7 @@ li {
     height: auto; /* According to chatGPT, it maintains the aspect ratio */
     right: -20%;
     bottom: -10%;
+    opacity: 60%;
 }
 
 .skull {
@@ -81,9 +115,19 @@ li {
     right: -18%;
     bottom: -9%;
     transform: scaleX(-1); /* Flip Image */
+    opacity: 60%;
+}
+
+.video_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media screen and (max-width: 600px) {
+	.title_specification {
+		font-size: 8vw;
+	}
     .row {
         flex-direction: column;
     }
