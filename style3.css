@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: #2B2000;
-    color: orange;
+    background-color: #3399ff;
+    color: #8BC6FF;
 }
 
 nav {
@@ -15,8 +15,8 @@ a {
 	padding-left: 0.15%;
 	padding-right: 0.15%;
 	text-decoration: none;
-	color: orange;
-	border: 2px solid orange;
+	color: #8BC6FF;
+	border: 2px solid #8BC6FF;
 	font-size: 120%;
 	font-family: fantasy;
 }
@@ -66,35 +66,35 @@ li {
     flex: 1;
     display: grid;
     align-items: center;
-    border-right: 2px solid orange;
-    border-bottom: 2px solid orange;
+    border-right: 2px solid #8BC6FF;
+    border-bottom: 2px solid #8BC6FF;
     border-radius: 20px;
     position: relative; /* For bringing pumpkin */
     overflow: hidden;
 }
 
 .name_area {
-	color: #ffc971;
+	color: #D3E3F2;
 }
 
 .friend_code_area {
-	color: #ffb627;
+	color: #0769C7;
 }
 
 .fav_text_area {
-	color: #ff9505;
+	color: #E4F0FB;
 }
 
 .name_area2 {
-	color: #ff9505;
+	color: #D3E3F2;
 }
 
 .friend_code_area2 {
-	color: #e2711d;
+	color: #0769C7;
 }
 
 .fav_text_area2 {
-	color: #cc5803;
+	color: #E4F0FB;
 }
 
 .pumpkin {
