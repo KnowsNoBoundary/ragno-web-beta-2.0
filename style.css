@@ -3,8 +3,8 @@
 body {
 	margin: 0;
 	font-family: fantasy;
-	background-color: #2D240A;
-	color: orange;
+	background-color: #3399ff;
+	color: #8BC6FF;
 }
 
 nav {
@@ -17,8 +17,8 @@ a {
 	padding-left: 0.15%;
 	padding-right: 0.15%;
 	text-decoration: none;
-	color: orange;
-	border: 2px solid orange;
+	color: #8BC6FF;
+	border: 2px solid #8BC6FF;
 	font-size: 120%;
 }
 
@@ -44,7 +44,7 @@ footer {
 
 .web-title {
 	font-family: 'Press Start 2P', cursive;
-	color: orange;
+/*	color: orange;*/ /* Useless Verbatium Code */
 	font-size: 8vw;
 	display: flex;
 	justify-content: center;
@@ -66,7 +66,7 @@ footer {
 
 .bottom {
 	margin: 5%;
-	color: orange;
+/*	color: orange;*/ /* Useless Verbatium Code */
 	display: flex;
 	justify-content: center;
 	align-items: center;
