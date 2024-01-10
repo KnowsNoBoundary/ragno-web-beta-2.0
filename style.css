@@ -3,8 +3,8 @@
 body {
 	margin: 0;
 	font-family: fantasy;
-	background-color: #3399ff;
-	color: #8BC6FF;
+	background-color: #226f9f;
+	color: #22b6dd;
 }
 
 nav {
@@ -17,25 +17,9 @@ a {
 	padding-left: 0.15%;
 	padding-right: 0.15%;
 	text-decoration: none;
-	color: #8BC6FF;
-	border: 2px solid #8BC6FF;
+	color: #22b6dd;
+	border: 2px solid #22b6dd;
 	font-size: 120%;
-}
-
-h1 {
-	text-align: center;
-	font-size: 2.5vw;
-}
-
-img {
-	max-width: 70%; /* I think this controls the width for the .page container in this case */
-	height: auto; /* According to chatGPT, it maintains the aspect ratio */
-	border-radius: 50%; /* Creates a circular image */
-}
-
-footer {
-	text-align: center;
-	font-size: 1.5vw;
 }
 
 .page {
@@ -44,19 +28,10 @@ footer {
 
 .web-title {
 	font-family: 'Press Start 2P', cursive;
-/*	color: orange;*/ /* Useless Verbatium Code */
 	font-size: 8vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex: 1;
-}
-
-.leader-info {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	flex: 1;
 }
 
@@ -65,8 +40,8 @@ footer {
 }
 
 .bottom {
+	color: white;
 	margin: 5%;
-/*	color: orange;*/ /* Useless Verbatium Code */
 	display: flex;
 	justify-content: center;
 	align-items: center;
