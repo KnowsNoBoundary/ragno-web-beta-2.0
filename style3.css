@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: #3399ff;
-    color: #8BC6FF;
+    background-color: #aa2225;
+    color: #fcb1db;
 }
 
 nav {
@@ -15,8 +15,8 @@ a {
 	padding-left: 0.15%;
 	padding-right: 0.15%;
 	text-decoration: none;
-	color: #8BC6FF;
-	border: 2px solid #8BC6FF;
+	color: #fcb1db; /* These color commands, are necessary */
+	border: 2px solid #fcb1db;
 	font-size: 120%;
 	font-family: fantasy;
 }
@@ -66,35 +66,35 @@ li {
     flex: 1;
     display: grid;
     align-items: center;
-    border-right: 2px solid #8BC6FF;
-    border-bottom: 2px solid #8BC6FF;
+    border-right: 2px solid #fcb1db;
+    border-bottom: 2px solid #fcb1db;
     border-radius: 20px;
     position: relative; /* For bringing pumpkin */
     overflow: hidden;
 }
 
 .name_area {
-	color: #D3E3F2;
+	color: #fcb1db;
 }
 
 .friend_code_area {
-	color: #0769C7;
+	color: #fcb1db;
 }
 
 .fav_text_area {
-	color: #E4F0FB;
+	color: #fcb1db;
 }
 
 .name_area2 {
-	color: #D3E3F2;
+	color: #fcb1db;
 }
 
 .friend_code_area2 {
-	color: #0769C7;
+	color: #fcb1db;
 }
 
 .fav_text_area2 {
-	color: #E4F0FB;
+	color: #fcb1db;
 }
 
 .pumpkin {
@@ -115,7 +115,7 @@ li {
     right: -18%;
     bottom: -9%;
     transform: scaleX(-1); /* Flip Image */
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .video_container {
